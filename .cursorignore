@@ -1,0 +1,21 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+package.json
+package-lock.json
+poetry.lock
+*.pypackages
+*.venv
+*.egg-info
+*.egg
+/node_modules
+frontend/node_modules
+*.txt
+*.log
+*.env
+*.sqlite
+*.db
+*.sqlite3
+*.db3
+*.sqlite3
+*.db3
+*/__pycache__
+poetry.lock

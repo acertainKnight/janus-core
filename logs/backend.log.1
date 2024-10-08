@@ -1,0 +1,98 @@
+2024-10-06 19:08:41,768 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:78]
+2024-10-06 19:08:41,769 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:83]
+2024-10-06 19:11:35,656 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:78]
+2024-10-06 19:11:35,656 - __main__ - INFO - Admin user already exists
+2024-10-06 19:11:35,657 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:83]
+2024-10-06 19:11:35,657 - __main__ - INFO - User in database: admin
+2024-10-06 19:11:35,682 - werkzeug - WARNING -  * Debugger is active!
+2024-10-06 19:11:35,682 - werkzeug - INFO -  * Debugger PIN: 137-358-639
+2024-10-06 19:12:47,110 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:12:47] "OPTIONS /api/prompts HTTP/1.1" 200 -
+2024-10-06 19:12:47,111 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:12:47] "OPTIONS /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:12:47,120 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:12:47] "GET /api/prompts HTTP/1.1" 200 -
+2024-10-06 19:12:47,124 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:12:47] "GET /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:12:54,748 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:12:54] "OPTIONS /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:12:55,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 19:12:55,214 - backend.routes.conversation - INFO - Conversation '"Planning Summer Vacation Destinations"' saved successfully for user 1
+2024-10-06 19:12:55,217 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:12:55] "[35m[1mPOST /api/conversations HTTP/1.1[0m" 201 -
+2024-10-06 19:13:06,040 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:13:06] "OPTIONS /api/conversations/2 HTTP/1.1" 200 -
+2024-10-06 19:13:06,046 - backend.routes.conversation - INFO - Deleting conversation 2 for user 1. Title: "Planning Summer Vacation Destinations"
+2024-10-06 19:13:06,047 - backend.routes.conversation - INFO - Deleted 0 messages for conversation 2
+2024-10-06 19:13:06,069 - backend.routes.conversation - INFO - Conversation 2 deleted successfully for user 1
+2024-10-06 19:13:06,070 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:13:06] "DELETE /api/conversations/2 HTTP/1.1" 200 -
+2024-10-06 19:14:26,146 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:26] "OPTIONS /api/prompts HTTP/1.1" 200 -
+2024-10-06 19:14:26,147 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:26] "OPTIONS /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:14:26,150 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:26] "GET /api/prompts HTTP/1.1" 200 -
+2024-10-06 19:14:26,151 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:26] "GET /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:14:33,403 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:33] "OPTIONS /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:14:33,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 19:14:33,929 - backend.routes.conversation - INFO - Conversation '"Planning a Birthday Surprise Party"' saved successfully for user 1
+2024-10-06 19:14:33,930 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:33] "[35m[1mPOST /api/conversations HTTP/1.1[0m" 201 -
+2024-10-06 19:14:33,935 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:33] "OPTIONS /api/conversations/2/fork HTTP/1.1" 200 -
+2024-10-06 19:14:33,952 - backend.routes.conversation - INFO - Conversation 'Fork of: "Planning a Birthday Surprise Party"' forked successfully for user 1
+2024-10-06 19:14:33,953 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:33] "[35m[1mPOST /api/conversations/2/fork HTTP/1.1[0m" 201 -
+2024-10-06 19:14:35,835 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:35] "GET /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:14:58,221 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:58] "OPTIONS /api/generate HTTP/1.1" 200 -
+2024-10-06 19:14:58,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 19:14:58,688 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:14:58] "POST /api/generate HTTP/1.1" 200 -
+2024-10-06 19:15:06,033 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:15:06] "OPTIONS /api/conversations/3/fork HTTP/1.1" 200 -
+2024-10-06 19:15:06,059 - backend.routes.conversation - INFO - Conversation 'Fork of: Fork of: "Planning a Birthday Surprise Party"' forked successfully for user 1
+2024-10-06 19:15:06,060 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:15:06] "[35m[1mPOST /api/conversations/3/fork HTTP/1.1[0m" 201 -
+2024-10-06 19:15:07,636 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:15:07] "OPTIONS /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:15:07,641 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:15:07] "GET /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:16:09,627 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:09] "OPTIONS /api/prompts HTTP/1.1" 200 -
+2024-10-06 19:16:09,628 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:09] "OPTIONS /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:16:09,631 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:09] "GET /api/conversations HTTP/1.1" 200 -
+2024-10-06 19:16:09,632 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:09] "GET /api/prompts HTTP/1.1" 200 -
+2024-10-06 19:16:14,367 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:14] "OPTIONS /api/conversations/4/fork HTTP/1.1" 200 -
+2024-10-06 19:16:14,394 - backend.routes.conversation - INFO - Conversation 'Fork of: Fork of: Fork of: "Planning a Birthday Surprise Party"' forked successfully for user 1
+2024-10-06 19:16:14,395 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:14] "[35m[1mPOST /api/conversations/4/fork HTTP/1.1[0m" 201 -
+2024-10-06 19:16:20,973 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:20] "OPTIONS /api/conversations/5 HTTP/1.1" 200 -
+2024-10-06 19:16:20,978 - backend.routes.conversation - INFO - Deleting conversation 5 for user 1. Title: Fork of: Fork of: Fork of: "Planning a Birthday Surprise Party"
+2024-10-06 19:16:20,978 - backend.routes.conversation - INFO - Deleted 0 messages for conversation 5
+2024-10-06 19:16:21,000 - backend.routes.conversation - INFO - Conversation 5 deleted successfully for user 1
+2024-10-06 19:16:21,000 - werkzeug - INFO - 127.0.0.1 - - [06/Oct/2024 19:16:21] "DELETE /api/conversations/5 HTTP/1.1" 200 -
+2024-10-06 19:21:07,015 - werkzeug - INFO -  * Detected change in '/home/nick-delphia/_personal/janus_core/backend/app.py', reloading
+2024-10-06 19:21:07,536 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:76]
+2024-10-06 19:21:07,536 - __main__ - INFO - Admin user already exists
+2024-10-06 19:21:07,537 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:80]
+2024-10-06 19:21:07,537 - __main__ - INFO - User in database: admin
+2024-10-06 19:21:07,562 - werkzeug - WARNING -  * Debugger is active!
+2024-10-06 19:21:07,563 - werkzeug - INFO -  * Debugger PIN: 137-358-639
+2024-10-06 19:23:42,691 - werkzeug - INFO -  * Detected change in '/home/nick-delphia/_personal/janus_core/backend/app.py', reloading
+2024-10-06 19:23:43,276 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:76]
+2024-10-06 19:23:43,276 - __main__ - INFO - Admin user already exists
+2024-10-06 19:23:43,276 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:80]
+2024-10-06 19:23:43,276 - __main__ - INFO - User in database: admin
+2024-10-06 19:23:43,311 - werkzeug - WARNING -  * Debugger is active!
+2024-10-06 19:23:43,311 - werkzeug - INFO -  * Debugger PIN: 137-358-639
+2024-10-06 19:23:49,210 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:76]
+2024-10-06 19:23:49,210 - __main__ - INFO - Admin user already exists
+2024-10-06 19:23:49,210 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:80]
+2024-10-06 19:23:49,210 - __main__ - INFO - User in database: admin
+2024-10-06 19:23:49,236 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.6.240:8080
+2024-10-06 19:23:49,236 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-06 19:23:49,236 - werkzeug - INFO -  * Restarting with stat
+2024-10-06 19:23:49,681 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:76]
+2024-10-06 19:23:49,681 - __main__ - INFO - Admin user already exists
+2024-10-06 19:23:49,682 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:80]
+2024-10-06 19:23:49,682 - __main__ - INFO - User in database: admin
+2024-10-06 19:23:49,706 - werkzeug - WARNING -  * Debugger is active!
+2024-10-06 19:23:49,706 - werkzeug - INFO -  * Debugger PIN: 137-358-639
+2024-10-06 19:29:13,350 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:76]
+2024-10-06 19:29:13,350 - __main__ - INFO - Admin user already exists
+2024-10-06 19:29:13,350 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:80]
+2024-10-06 19:29:13,350 - __main__ - INFO - User in database: admin
+2024-10-06 19:30:09,468 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:76]
+2024-10-06 19:30:09,468 - __main__ - INFO - Admin user already exists
+2024-10-06 19:30:09,468 INFO: User in database: admin [in /home/nick-delphia/_personal/janus_core/backend/app.py:80]
+2024-10-06 19:30:09,468 - __main__ - INFO - User in database: admin
+2024-10-06 19:48:34,039 - werkzeug - INFO -  * Detected change in '/home/nick-delphia/_personal/janus_core/backend/app.py', reloading
+2024-10-06 19:48:34,129 - werkzeug - INFO -  * Restarting with stat
+2024-10-06 19:48:34,583 INFO: Admin user already exists [in /home/nick-delphia/_personal/janus_core/backend/app.py:76]
+2024-10-06 19:48:34,583 - __main__ - INFO - Admin user already exists
+2024-10-06 19:48:34,584 - __main__ - INFO - User in database: admin
+2024-10-06 19:48:34,607 - werkzeug - WARNING -  * Debugger is active!
+2024-10-06 19:48:34,607 - werkzeug - INFO -  * Debugger PIN: 137-358-639

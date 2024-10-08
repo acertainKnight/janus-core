@@ -1,0 +1,32 @@
+{
+  "name": "llm-playground",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bash start.sh",
+    "install": "cd frontend && npm install && cd ../backend && pip install -r requirements.txt"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slider": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-switch": "^1.1.0",
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.446.0",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.13",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8",
+    "concurrently": "^6.2.0"
+  }
+}
